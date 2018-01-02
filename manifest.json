@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Koinex Price Ticker",
+  "description": "This extension allows the user to change the background color of the current page.",
+  "version": "1.0",
+  "icons": { "128": "icon.png" },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "Price Checker",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "notifications"
+  ]
+}
